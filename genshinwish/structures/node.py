@@ -16,7 +16,7 @@ class PityNode:
         self.right = None
         self.parent = None
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"Node({self.value}, {self.probability}, {self.guarantee})"
 
     def get_next_nodes(self) -> Tuple['PityNode']:

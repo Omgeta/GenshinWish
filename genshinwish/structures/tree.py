@@ -3,6 +3,7 @@ from typing import List
 
 
 class PityTree:
+    """ Probability Tree for calculating Pity """
     def __init__(self, root: PityNode = PityNode()):
         self.root = root
 
